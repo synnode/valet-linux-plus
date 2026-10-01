@@ -726,6 +726,421 @@ parameters:
 			path: tests/CliTest.php
 
 		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\BasicValetDriverTest\\:\\:test_it_routes_to_index_if_404\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/BasicValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\BasicValetDriverTest\\:\\:test_it_serves_anything\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/BasicValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\BasicValetDriverTest\\:\\:test_it_serves_directory_with_index_html\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/BasicValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\BasicValetDriverTest\\:\\:test_it_serves_directory_with_index_php\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/BasicValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\BasicValetDriverTest\\:\\:test_it_serves_php_files_from_root\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/BasicValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\BasicValetDriverTest\\:\\:test_it_serves_static_files\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/BasicValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\BasicWithPublicValetDriverTest\\:\\:test_it_doesnt_serve_from_not_public\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/BasicWithPublicValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\BasicWithPublicValetDriverTest\\:\\:test_it_doesnt_serve_php_files_from_root\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/BasicWithPublicValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\BasicWithPublicValetDriverTest\\:\\:test_it_route_to_public_index_if_404\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/BasicWithPublicValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\BasicWithPublicValetDriverTest\\:\\:test_it_serves_anything_with_public\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/BasicWithPublicValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\BasicWithPublicValetDriverTest\\:\\:test_it_serves_directory_with_index_html\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/BasicWithPublicValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\BasicWithPublicValetDriverTest\\:\\:test_it_serves_directory_with_index_php\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/BasicWithPublicValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\BasicWithPublicValetDriverTest\\:\\:test_it_serves_php_files_from_public\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/BasicWithPublicValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\BasicWithPublicValetDriverTest\\:\\:test_it_serves_static_files\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/BasicWithPublicValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\BedrockValetDriverTest\\:\\:test_it_doesnt_serve_non_bedrock_projects\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/BedrockValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\BedrockValetDriverTest\\:\\:test_it_gets_front_controller\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/BedrockValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\BedrockValetDriverTest\\:\\:test_it_serves_bedrock_projects\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/BedrockValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\CakeValetDriverTest\\:\\:test_it_doesnt_serve_non_cake_projects\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/CakeValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\CakeValetDriverTest\\:\\:test_it_gets_front_controller\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/CakeValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\CakeValetDriverTest\\:\\:test_it_serves_cake_projects\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/CakeValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\Concrete5ValetDriverTest\\:\\:test_it_doesnt_serve_non_concrete5_projects\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/Concrete5ValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\Concrete5ValetDriverTest\\:\\:test_it_gets_front_controller\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/Concrete5ValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\Concrete5ValetDriverTest\\:\\:test_it_serves_concrete5_projects\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/Concrete5ValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\ContaoValetDriverTest\\:\\:test_it_doesnt_serve_non_contao_projects\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/ContaoValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\ContaoValetDriverTest\\:\\:test_it_gets_front_controller\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/ContaoValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\ContaoValetDriverTest\\:\\:test_it_serves_contao_projects\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/ContaoValetDriverTest.php
+
+		-
+			message: "#^Unreachable statement \\- code above always terminates\\.$#"
+			count: 2
+			path: tests/Drivers/ContaoValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\CraftValetDriverTest\\:\\:test_it_doesnt_serve_non_craft_projects\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/CraftValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\CraftValetDriverTest\\:\\:test_it_gets_front_controller\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/CraftValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\CraftValetDriverTest\\:\\:test_it_serves_craft_projects\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/CraftValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\DrupalValetDriverTest\\:\\:test_it_doesnt_serve_non_drupal_projects\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/DrupalValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\DrupalValetDriverTest\\:\\:test_it_gets_front_controller\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/DrupalValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\DrupalValetDriverTest\\:\\:test_it_serves_drupal_projects\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/DrupalValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\JigsawValetDriverTest\\:\\:test_it_doesnt_serve_non_jigsaw_projects_with_public_directory\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/JigsawValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\JigsawValetDriverTest\\:\\:test_it_mutates_uri\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/JigsawValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\JigsawValetDriverTest\\:\\:test_it_serves_jigsaw_projects\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/JigsawValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\JoomlaValetDriverTest\\:\\:test_it_doesnt_serve_non_joomla_projects_with_public_directory\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/JoomlaValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\JoomlaValetDriverTest\\:\\:test_it_gets_front_controller\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/JoomlaValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\JoomlaValetDriverTest\\:\\:test_it_serves_joomla_projects\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/JoomlaValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\KatanaValetDriverTest\\:\\:test_it_doesnt_serve_non_katana_projects_with_public_directory\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/KatanaValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\KatanaValetDriverTest\\:\\:test_it_mutates_uri\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/KatanaValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\KatanaValetDriverTest\\:\\:test_it_serves_katana_projects\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/KatanaValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\KirbyValetDriverTest\\:\\:test_it_doesnt_serve_non_kirby_projects_with_public_directory\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/KirbyValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\KirbyValetDriverTest\\:\\:test_it_gets_front_controller\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/KirbyValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\KirbyValetDriverTest\\:\\:test_it_serves_kirby_projects\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/KirbyValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\LaravelValetDriverTest\\:\\:test_it_doesnt_serve_non_laravel_projects_with_public_directory\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/LaravelValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\LaravelValetDriverTest\\:\\:test_it_gets_front_controller\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/LaravelValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\LaravelValetDriverTest\\:\\:test_it_serves_laravel_projects\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/LaravelValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\Magento2ValetDriverTest\\:\\:test_it_doesnt_serve_non_magento2_projects_with_public_directory\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/Magento2ValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\Magento2ValetDriverTest\\:\\:test_it_gets_front_controller\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/Magento2ValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\Magento2ValetDriverTest\\:\\:test_it_serves_magento2_projects\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/Magento2ValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\NeosValetDriverTest\\:\\:test_it_doesnt_serve_non_neos_projects_with_public_directory\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/NeosValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\NeosValetDriverTest\\:\\:test_it_gets_front_controller\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/NeosValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\NeosValetDriverTest\\:\\:test_it_serves_neos_projects\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/NeosValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\SculpinValetDriverTest\\:\\:test_it_doesnt_serve_non_sculpin_projects_with_public_directory\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/SculpinValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\SculpinValetDriverTest\\:\\:test_it_mutates_uri\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/SculpinValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\SculpinValetDriverTest\\:\\:test_it_serves_sculpin_projects\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/SculpinValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\StatamicV1ValetDriverTest\\:\\:test_it_doesnt_serve_non_statamicv1_projects\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/StatamicV1ValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\StatamicV1ValetDriverTest\\:\\:test_it_gets_front_controller\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/StatamicV1ValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\StatamicV1ValetDriverTest\\:\\:test_it_serves_statamicv1_projects\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/StatamicV1ValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\StatamicV2ValetDriverTest\\:\\:test_it_doesnt_serve_non_statamic_projects\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/StatamicV2ValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\StatamicV2ValetDriverTest\\:\\:test_it_gets_front_controller\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/StatamicV2ValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\StatamicV2ValetDriverTest\\:\\:test_it_serves_statamic_projects\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/StatamicV2ValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\StatamicValetDriverTest\\:\\:test_it_doesnt_serve_laravel_projects\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/StatamicValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\StatamicValetDriverTest\\:\\:test_it_doesnt_serve_non_statamic_projects_with_public_directory\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/StatamicValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\StatamicValetDriverTest\\:\\:test_it_gets_front_controller\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/StatamicValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\StatamicValetDriverTest\\:\\:test_it_serves_statamic_projects\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/StatamicValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\StatamicValetDriverTest\\:\\:test_it_serves_statically_cached_pages\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/StatamicValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\SymfonyValetDriverTest\\:\\:test_it_doesnt_serve_non_symfony_projects\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/SymfonyValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\SymfonyValetDriverTest\\:\\:test_it_gets_front_controller\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/SymfonyValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\SymfonyValetDriverTest\\:\\:test_it_serves_symfony_projects\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/SymfonyValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\Typo3ValetDriverTest\\:\\:test_it_doesnt_serve_non_typo3_projects\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/Typo3ValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\Typo3ValetDriverTest\\:\\:test_it_gets_front_controller\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/Typo3ValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\Typo3ValetDriverTest\\:\\:test_it_serves_typo3_projects\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/Typo3ValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\ValetDriverTest\\:\\:test_it_assigns_drivers_to_given_project\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/ValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\ValetDriverTest\\:\\:test_it_checks_composer_dependencies\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/ValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\ValetDriverTest\\:\\:test_it_gets_drivers_in_given_path\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/ValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\ValetDriverTest\\:\\:test_it_prioritizes_non_basic_matches\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/ValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\ValetDriverTest\\:\\:test_it_prioritizes_statamic\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/ValetDriverTest.php
+
+		-
+			message: "#^Parameter \\#1 \\$object of function get_class expects object, Valet\\\\Drivers\\\\ValetDriver\\|null given\\.$#"
+			count: 5
+			path: tests/Drivers/ValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\WordPressValetDriverTest\\:\\:test_it_doesnt_serve_non_wordpress_projects\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/WordPressValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\WordPressValetDriverTest\\:\\:test_it_gets_front_controller\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/WordPressValetDriverTest.php
+
+		-
+			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\WordPressValetDriverTest\\:\\:test_it_serves_wordpress_projects\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: tests/Drivers/WordPressValetDriverTest.php
+
+		-
 			message: "#^Call to an undefined method PHPUnit\\\\Framework\\\\MockObject\\\\MockObject\\|Valet\\\\Filesystem\\:\\:shouldNotReceive\\(\\)\\.$#"
 			count: 5
 			path: tests/Unit/ConfigurationTest.php
