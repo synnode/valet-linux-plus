@@ -121,4 +121,37 @@ class ServerTest extends TestCase
         $this->assertNull(Server::valetSiteFromIpAddressUri('my-site.dev/auth', 'test'));
         $this->assertNull(Server::valetSiteFromIpAddressUri('', 'test'));
     }
+
+    /**
+     * @test
+     */
+    public function it_escapes_the_uri_in_the_directory_listing(): void
+    {
+        $html = Server::directoryListingHtml('/<script>alert(1)</script>', [], false);
+
+        $this->assertStringNotContainsString('<script>', $html);
+        $this->assertStringContainsString('&lt;script&gt;', $html);
+    }
+
+    /**
+     * @test
+     */
+    public function it_escapes_file_names_in_the_directory_listing(): void
+    {
+        // A crafted directory entry must not break out of the href or inject markup.
+        $html = Server::directoryListingHtml('/', ['/site/"><img src=x onerror=alert(1)>'], true);
+
+        $this->assertStringNotContainsString('<img', $html);
+        $this->assertStringContainsString('&lt;img', $html);
+    }
+
+    /**
+     * @test
+     */
+    public function it_builds_plain_links_for_normal_entries(): void
+    {
+        $html = Server::directoryListingHtml('/', ['/site/index.php'], true);
+
+        $this->assertStringContainsString("<a href='/index.php'>/index.php</a>", $html);
+    }
 }
