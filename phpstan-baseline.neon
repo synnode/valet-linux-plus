@@ -856,11 +856,6 @@ parameters:
 			path: tests/Drivers/ContaoValetDriverTest.php
 
 		-
-			message: "#^Unreachable statement \\- code above always terminates\\.$#"
-			count: 2
-			path: tests/Drivers/ContaoValetDriverTest.php
-
-		-
 			message: "#^Method Valet\\\\Tests\\\\Drivers\\\\CraftValetDriverTest\\:\\:test_it_doesnt_serve_non_craft_projects\\(\\) has no return type specified\\.$#"
 			count: 1
 			path: tests/Drivers/CraftValetDriverTest.php
