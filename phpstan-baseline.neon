@@ -461,17 +461,7 @@ parameters:
 			path: cli/Valet/Server.php
 
 		-
-			message: "#^Parameter \\#1 \\$array of function usort expects TArray of array\\<string\\>, array\\<int, string\\>\\|false given\\.$#"
-			count: 1
-			path: cli/Valet/Server.php
-
-		-
 			message: "#^Parameter \\#1 \\$haystack of function strpos expects string, string\\|null given\\.$#"
-			count: 1
-			path: cli/Valet/Server.php
-
-		-
-			message: "#^Parameter \\#2 \\$array of function array_map expects array, array\\<int, string\\>\\|false given\\.$#"
 			count: 1
 			path: cli/Valet/Server.php
 

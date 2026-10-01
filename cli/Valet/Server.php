@@ -75,23 +75,40 @@ class Server
         }
 
         // Sort directories at the top
-        $paths = glob("$directory/*");
+        $paths = glob("$directory/*") ?: [];
         usort($paths, function ($a, $b) {
             return (is_dir($a) == is_dir($b)) ? strnatcasecmp($a, $b) : (is_dir($a) ? -1 : 1);
         });
 
-        // Output the HTML for the directory listing
-        echo "<h1>Index of $uri</h1>";
-        echo '<hr>';
-        echo implode(
-            '<br>'.PHP_EOL,
-            array_map(function ($path) use ($uri, $isRoot) {
-                $file = basename($path);
-                return ($isRoot) ? "<a href='/$file'>/$file</a>" : "<a href='$uri/$file'>$uri/$file/</a>";
-            }, $paths)
-        );
+        echo static::directoryListingHtml($uri, $paths, $isRoot);
 
         exit;
+    }
+
+    /**
+     * Build the HTML for a directory listing.
+     *
+     * The request URI and the file names are HTML-escaped: both are
+     * attacker-influenceable (the URI directly, a file name via a crafted
+     * directory entry), so echoing them raw would allow reflected/stored XSS.
+     *
+     * @param  array<int, string>  $paths
+     */
+    public static function directoryListingHtml(string $uri, array $paths, bool $isRoot): string
+    {
+        $uriEscaped = htmlspecialchars($uri, ENT_QUOTES, 'UTF-8');
+
+        $links = array_map(function ($path) use ($uriEscaped, $isRoot) {
+            $fileEscaped = htmlspecialchars(basename($path), ENT_QUOTES, 'UTF-8');
+
+            return $isRoot
+                ? "<a href='/$fileEscaped'>/$fileEscaped</a>"
+                : "<a href='$uriEscaped/$fileEscaped'>$uriEscaped/$fileEscaped/</a>";
+        }, $paths);
+
+        return '<h1>Index of '.$uriEscaped.'</h1>'
+            .'<hr>'
+            .implode('<br>'.PHP_EOL, $links);
     }
 
     /**
